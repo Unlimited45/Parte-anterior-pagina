@@ -1,0 +1,112 @@
+*
+{
+	font-family:'roboto';
+	text-align:center;
+}
+
+
+.ub1
+{
+text-align:left;
+font-weight: bold;
+color:#000000;
+margin-bottom:0.5em;
+margin-top:0.5em;
+}
+.caja1
+{
+	background-color: 	#FFFFFF;
+	width:20em;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 2em;
+	color:black;
+    border:3px solid #000000;
+    border-radius: 22px;
+
+
+}
+input, select
+{
+	width: 100%;
+    padding: 0.5em;
+	font-size:1em;
+	border-radius:5px;
+	border:1px solid #000000;
+	color:#881da9;
+	text-align:left;
+		cursor:pointer;
+	
+}
+
+input::placeholder 
+{
+  color: #310245;
+  font-weight: bold;
+   opacity: 0.5; 
+}
+
+input[type=submit],input[type=reset]
+{
+margin-top: 1.5em;
+width:48%;
+text-align:center;
+background-color: #a143e8de;
+color:#ffffff;
+	cursor:pointer;
+
+}
+input[type=checkbox]
+{
+margin-left:0;
+width:10%;
+	cursor:pointer;
+
+}
+
+.formtlo
+{
+	font-size:2em;
+	padding-bottom:0.8em;
+	color:#000000;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+img
+{	
+  border-radius: 50%;
+  padding:0.5em;
+  width:8em;
+  height:8em;
+  margin-bottom:2em;
+
+}
+
+.ref1
+{
+	margin-top:1em;
+	color:rgb(234, 216, 255);
+}
+
+a
+{
+	color:#0000FF;
+	text-decoration: none;
+	cursor:pointer;
+}
+.ok{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #ffffff;
+	color: #000000;
+}
+.bad{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #ffffff;
+	color: #000000;
+}

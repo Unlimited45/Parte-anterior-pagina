@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Registro Unlimited</title>
+     <link rel="stylesheet" href="css/estiloregistro.css">
+     <link rel="icon" type="image/png" href="images/iconi.png">	
+</head>
+<body>
+<div class="caja1">
+<form name="form" method="POST" action="php/registrar.php">
+<div class="formtlo">Registrarse</div>
+<div class="ub1">&#128273;Identificacion</div>
+<input type="text" name="ID_persona" placeholder="Ingresar su identificacion...">
+
+<div class="ub1" >Nombres</div>
+<input type="text" name="nombres" placeholder="Ingresar nombre...">
+
+<div class="ub1" >Apellidos</div>
+<input type="text" name="apellidos" placeholder="Ingresar apellidos...">
+
+
+<div class="ub1" >Fecha de nacimiento</div>
+<input type="text" name="fecha_nacimiento"placeholder="año/mes/dia">
+
+<div class="ub1" >Direccion</div>
+<input type="text" name="direccion" placeholder="Ingresar direccion...">
+
+
+<div class="ub1" >Telefono</div>
+<input type="text" name="telefono" placeholder="Ingresar telefono...">
+
+<div class="ub1" >Correo electronico</div>
+<input type="text" name="correo"placeholder="Ingresar correo...">
+<div class="ub1" >&#128274; Ingresar contraseña</div>
+
+<input type="password" name="contraseña" id="txtpassword" placeholder="Ingresar contraseña...">
+
+<div class="ub1">
+<input type="checkbox" onclick="verpassword()" >Mostrar contraseña
+ </div>
+
+
+<div align="center">
+<input type="submit" name="registrar">
+
+<input type="reset" value="Cancelar">
+</div>
+<div class="ref1"><a href="inicio_sesion.html">Iniciar sesion</a>
+</form>
+</div>
+</body>
+<script>
+  function verpassword(){
+      var tipo = document.getElementById("txtpassword");
+      if(tipo.type == "password")
+	  {
+          tipo.type = "text";
+      }
+	  else
+	  {
+          tipo.type = "password";
+      }
+  }
+
+</script>
+</form>
+</html>
